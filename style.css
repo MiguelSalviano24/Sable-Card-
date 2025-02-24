@@ -1,0 +1,56 @@
+.logo {
+    margin-top: 180px;
+    position: relative;
+    left: 10px;
+    padding-left: 40px;
+    width: max-content;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    gap: 3rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    margin: 20px auto 0;
+    transform: translateY(-30px);
+    width: max-content;
+}
+
+.central-text h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 59px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.explore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6FDBD4;
+    padding: 20px;
+    border-radius: 40px;
+    width: 180px;
+    margin: 40px auto 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
