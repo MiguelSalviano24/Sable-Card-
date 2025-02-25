@@ -1,3 +1,13 @@
+body {
+    background-image: url(./assets/sable-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+    
+}
+
 nav {
     padding-top: 12rem;
 
@@ -29,6 +39,11 @@ nav {
     
 }
 
+
+.item:hover {
+    border-bottom: 2px  rgba(255, 255, 255, 0.6);
+}
+
 a {
     text-decoration: none;
     color: rgba(255, 255, 2555, 0.5);
@@ -55,14 +70,88 @@ a {
 }
 
 button {
-    
     background-color: #6FDBD4;
     width: 200px;
     height: 100px;
     border-radius: 154.48px;
-    font-size: large;
+    font-size: medium;
     text-transform: uppercase;
     color: black;
     border-style:none;
+    cursor:pointer;
+    margin-top: 20px;
 
 }
+
+button:hover {
+    background-color:white;
+    width: 200px;
+    height: 100px;
+    border-radius: 154.48px;
+    font-size: medium;
+    text-transform: uppercase;
+    color: black;
+    border-style:none;
+    cursor:pointer;
+    margin-top: 20px;
+}
+
+.login-button {
+    display: flex;
+    justify-content: end;
+    width: 100vw;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-button button {
+    background-color: white;
+    width: 230px;
+    height: 60px;
+    border-radius: 154.48px;
+    font-size: medium;
+    text-transform: uppercase;
+    color: black;
+    border-style: none;
+    text-transform: bold;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: #6FDBD4;
+    width: 230px;
+    height: 60px;
+    border-radius: 154.48px;
+    font-size: medium;
+    text-transform: uppercase;
+    color: black;
+    border-style: none;
+    text-transform: bold;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: start;
+    margin-top: 530px;
+    margin-left: 70px;
+   color: rgba(255, 255, 255, 0.6)
+}
+
+.fdic {
+    margin-right: 15px;
+}
+
+@media(min-width: 2000px) { 
+    body {
+        background-image: url(./assets/sable-bg.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: -1;
+    }
+}
+
+
+
+
