@@ -12,8 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="login-button"><button>sign in</button></section>
-    <header class="main">
+    <div class="section-one">
+        <header class="main">
+        <span class="login-button"><button>sign in</button></span>
         <nav>
         <span class="logo"><a href="#"><img src="assets/sable-logo.png" alt=""></a></span>
             <ul class="menu">
@@ -25,18 +26,23 @@
         </nav>
         </header>
     <main>
-        <section class="central-text">
+        <section class="card-section">
             <header>
-                <h1>The fastest, most<br>premium path to<br><b>financial freedom</b></h1>
+                <h1 class="central-text">The fastest, most<br>premium path to<br><b>financial freedom</b></h1>
+                <span class="explore"><button><b>explore</b></button></span>
+            </header>
+            <footer>
+                <img class="fdic" src="/assets/fdic.svg" alt="fdic logo">
+                <p>Banking services provided by Coastal Community Bank, Member <br>FDIC, pursuant to license by Mastercard International Inc.</p>
+            </footer>   
+        </div>
+        </section>
+        <section class="phone-section">
+            <header>
+                <p>400,000 ACCOUNTS & COUNTING</p>
+                <h2><b>No hidden fees. No credit checks.</b><br>No more barriers to building credit.</h2>
             </header>
         </section>
-        <section class="button">
-            <button><b>explore</b></button>
-        </section>
-    </main>
-    <footer>
-        <img class="fdic" src="/assets/fdic.svg" alt="fdic logo">
-        <p>Banking services provided by Coastal Community Bank, Member <br>FDIC, pursuant to license by Mastercard International Inc.</p>
-    </footer>     
+    </main>  
 </body>
 </html> 
