@@ -52,6 +52,17 @@ a {
 .button {
     display: flex;
     justify-content: center;
-    background-color: red;
+}
+
+button {
     
+    background-color: #6FDBD4;
+    width: 200px;
+    height: 100px;
+    border-radius: 154.48px;
+    font-size: large;
+    text-transform: uppercase;
+    color: black;
+    border-style:none;
+
 }
