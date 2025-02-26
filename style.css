@@ -1,5 +1,5 @@
 .section-one {
-    background-image: url(./assets/sable-bg.jpg);
+    background-image: url(./assets/images/sable-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -161,7 +161,7 @@ footer {
 
 @media(min-width: 2000px) { 
     .section-one {
-        background-image: url(./assets/sable-bg.jpg);
+        background-image: url(./assets/images/sable-bg.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -266,6 +266,21 @@ footer {
     margin-top: 10px;
 }
 
+.phone-section {
+    background-image: url(assets/images/cellphone.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-position: center 120px;
+    background-size: 90%;
+    z-index: 3;
+}
+
+hr {
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    z-index: 2;
+}
 
 
 
