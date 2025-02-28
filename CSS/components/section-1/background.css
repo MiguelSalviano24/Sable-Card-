@@ -1,9 +1,8 @@
 .section-one {
-    background-image: url(./assets/images/sable-bg.jpg);
+    background-image: url(/assets/images/sable-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    z-index: -1; 
 }
 
 .section-one { 
@@ -14,20 +13,18 @@
 
 @media (min-width:1024px) {
     .section-one {
-        background-image: url(./assets/images/sable-bg.jpg);
+        background-image: url(/assets/images/sable-bg.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        z-index: -1; 
     }
 }
 
 @media (min-width:2000px) {
     .section-one {
-        background-image: url(./assets/images/sable-bg.jpg);
+        background-image: url(/assets/images/sable-bg.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        z-index: -1; 
     }
 }

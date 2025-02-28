@@ -6,21 +6,11 @@
 }
 
 .fundo {
-    background: transparent;
-    display: block;
-    width: fit-content;
-    overflow: hidden;
     position:absolute;
-    right: 150px;
+    right: 200px;
     scale: 95%;
     top: 1340px;
     z-index: 1;
-}
-
-.cellphone-image img {
-     max-width: 100%;
-    height: auto;
-    object-fit: contain;
 }
 
 .fundo:hover {
@@ -33,7 +23,7 @@
 @media (min-width:1024px) {
     .fundo {
         position:absolute;
-        right: 50px;
+        right: 70px;
         scale: 95%;
         top: 1340px;
         z-index: 1;
