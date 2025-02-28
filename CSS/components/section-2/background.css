@@ -1,5 +1,5 @@
 .phone-section {
-    background-color: #1C1C1E;
+    background-color: #1c1c1e;
     height: 100vh;
     width: 100%;
 
@@ -30,6 +30,40 @@
     z-index: 1;
 }
 
+@media (min-width:1024px) {
+    .fundo {
+        position:absolute;
+        right: 50px;
+        scale: 95%;
+        top: 1340px;
+        z-index: 1;
+    }
+
+    .fundo:hover {
+        position:absolute;
+        scale: 102%;
+        top: 1330px;
+        z-index: 1;
+    }
+}
+
+@media (min-width:1200px) {
+    .fundo {
+        position:absolute;
+        right: 50px;
+        scale: 95%;
+        top: 1340px;
+        z-index: 1;
+    }
+
+    .fundo:hover {
+        position:absolute;
+        scale: 102%;
+        top: 1330px;
+        z-index: 1;
+    }
+}
+
 @media (min-width:2000px) {
     .fundo {
         position:absolute;
@@ -46,4 +80,3 @@
         z-index: 1;
     }
 }
-
