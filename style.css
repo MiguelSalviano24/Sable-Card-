@@ -1,0 +1,311 @@
+.section-one {
+    background-image: url(./assets/images/sable-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1; 
+}
+
+.section-one { 
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+nav {
+    padding-top: 12rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding-left: 60px;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+    width: 100%;
+    text-transform: uppercase;
+    padding-right: 170px;
+    
+}
+
+
+.item:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 2555, 0.5);
+    cursor: pointer;
+}
+
+.central-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    font-size: 90px;
+    margin-top: 50px;
+    font-weight: normal;
+    text-align: center;
+    align-content: center;
+}
+
+.explore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.explore button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #6FDBD4;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    border-radius: 154.48px;
+    font-size: medium;
+    text-transform: uppercase;
+    color: black;
+    border-style:none;
+    cursor:pointer;
+    margin-top: 20px;
+}
+
+.explore button:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: white;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    border-radius: 154.48px;
+    font-size: medium;
+    text-transform: uppercase;
+    color: black;
+    border-style:none;
+    cursor:pointer;
+    margin-top: 20px;
+}
+
+.login-button {
+    display: flex;
+    justify-content: end;
+    width: 100vw;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-button button {
+    background-color: white;
+    width: 230px;
+    height: 60px;
+    border-radius: 154.48px;
+    font-size: medium;
+    text-transform: uppercase;
+    color: black;
+    border-style: none;
+    text-transform: bold;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.login-button button:hover {
+    background-color: #6FDBD4;
+    width: 230px;
+    height: 60px;
+    border-radius: 154.48px;
+    font-size: medium;
+    text-transform: uppercase;
+    color: black;
+    border-style: none;
+    text-transform: bold;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: start;
+    margin-top:400px;
+    margin-left: 70px;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.fdic {
+    margin-right: 15px;
+    width: 50px;
+}
+
+@media(min-width: 2000px) { 
+    .section-one {
+        background-image: url(./assets/images/sable-bg.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: -1;
+    }
+}
+
+.phone-section {
+    background-color: #1C1C1E;
+    height: 100vh;
+}
+
+.header-paragraph p {
+    display: flex;
+    justify-content: center;
+    color: #6FDBD4;
+    padding-top: 120px;
+    padding-bottom: 20px;
+
+}
+
+.phone-section h2 {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 1.5rem;
+}
+
+.texts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-left {
+    width:fit-content;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 100px;
+    margin-top: 100px;
+    line-height: 1.5rem;
+}
+
+.text-right {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 100px;
+    text-align: end;
+    margin-top: 90px;
+}
+
+.text-left p, .text-right p {
+    color: #A0A1A8;
+    font-size: 16px;
+    line-height: 1rem;
+    margin-top: 10px;
+}
+
+.text-left h3, .text-right h3 {
+    font-size: 21px;
+}
+
+.text-left-down {
+    width:fit-content;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 100px;
+    margin-top: 200px;
+    line-height: 1.5rem;
+}
+
+.text-right-down{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 100px;
+    text-align: end;
+    margin-top: 200px;
+}
+
+.text-left-down h3, .text-right-down h3 {
+    font-size: 21px;
+}
+
+.text-left-down p, .text-right-down p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 1rem;
+    margin-top: 10px;
+}
+
+
+
+
+.fundo {
+    position:absolute;
+    right:70px;
+    scale: 107%;
+    top: 1400px;
+    z-index: 1;
+}
+
+.line {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    opacity: 50%;
+    position: relative;
+    z-index: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
