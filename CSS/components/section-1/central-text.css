@@ -1,0 +1,13 @@
+.central-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    font-size: 90px;
+    margin-top: 50px;
+    font-weight: normal;
+    text-align: center;
+    align-content: center;
+}

@@ -1,0 +1,77 @@
+.explore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.explore button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #6FDBD4;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    border-radius: 154.48px;
+    font-size: medium;
+    text-transform: uppercase;
+    color: black;
+    border-style:none;
+    cursor:pointer;
+    margin-top: 20px;
+}
+
+.explore button:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: white;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    border-radius: 154.48px;
+    font-size: medium;
+    text-transform: uppercase;
+    color: black;
+    border-style:none;
+    cursor:pointer;
+    margin-top: 20px;
+}
+
+.login-button {
+    display: flex;
+    justify-content: end;
+    width: 100vw;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-button button {
+    background-color: white;
+    width: 230px;
+    height: 60px;
+    border-radius: 154.48px;
+    font-size: medium;
+    text-transform: uppercase;
+    color: black;
+    border-style: none;
+    text-transform: bold;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.login-button button:hover {
+    background-color: #6FDBD4;
+    width: 230px;
+    height: 60px;
+    border-radius: 154.48px;
+    font-size: medium;
+    text-transform: uppercase;
+    color: black;
+    border-style: none;
+    text-transform: bold;
+    cursor: pointer;
+}

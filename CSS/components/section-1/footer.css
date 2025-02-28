@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    justify-content: start;
+    margin-top:300px;
+    margin-left: 70px;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.fdic {
+    margin-right: 15px;
+    width: 50px;
+}
