@@ -1,9 +1,3 @@
-.section-one {
-    background-image: url(/CSS/components/assets/images/sable-bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 .section-one { 
     width: 100%;
@@ -11,20 +5,19 @@
     overflow: hidden;
 }
 
-@media (min-width:1024px) {
-    .section-one {
-        background-image: url(/CSS/components/assets/images/sable-bg.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+
+.pqp {
+    position: absolute;
+    height: 100vh;
+    z-index: -1;
 }
 
 @media (min-width:2000px) {
-    .section-one {
-        background-image: url(/CSS/components/assets/images/sable-bg.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+    .pqp {
+        position: absolute;
+        height: 100vh;
+        z-index: -1;
+        width: auto;
+        left: 800px
     }
 }
