@@ -1,20 +1,9 @@
-<<<<<<< HEAD
-=======
-.section-one {
-    background-image: url(./CSS/components/assets/images/sable-bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
->>>>>>> refs/remotes/origin/main
-
 .section-one { 
     width: 100%;
     height: 100vh;
     overflow: hidden;
 }
 
-<<<<<<< HEAD
 
 .pqp {
     position: absolute;
@@ -29,22 +18,5 @@
         z-index: -1;
         width: auto;
         left: 800px
-=======
-@media (min-width:1024px) {
-    .section-one {
-        background-image: url(./CSS/components/assets/images/sable-bg.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-}
-
-@media (min-width:2000px) {
-    .section-one {
-        background-image: url(./CSS/components/assets/images/sable-bg.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
->>>>>>> refs/remotes/origin/main
     }
 }
