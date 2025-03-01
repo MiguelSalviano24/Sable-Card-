@@ -1,7 +1,8 @@
 .phone-section {
     background-color: #1c1c1e;
     height: 100vh;
-    width: 100%;
+    width:auto;
+    margin-top: 43px;
 
 }
 
