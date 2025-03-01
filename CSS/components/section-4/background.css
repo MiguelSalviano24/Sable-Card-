@@ -24,7 +24,7 @@
     color: black;
     display: flex;
     justify-content: end;
-    margin-right: 150px;
+    margin-right: 250px;
     font-size: 40px;
     text-align: start;
     margin-bottom: 150px;
@@ -32,5 +32,22 @@
 
 .paragraph span {
     color: #1FC6BB;
+}
+
+@media (min-width:2000px) {
+    .card-section-4 img {
+        display: flex;
+        justify-content: start;
+        margin-top: 124px;
+        margin-right: 120px;
+    }
+}
+
+@media (min-width:2000px) {
+    .paragraph {
+        margin-top: 124px;
+        margin-right: 1200px;
+        text-align: start;
+    }
 }
 
