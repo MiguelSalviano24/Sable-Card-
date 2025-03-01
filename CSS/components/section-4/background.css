@@ -3,6 +3,8 @@
     width: 100vw;
     height: 50%;
     overflow: hidden;
+    position: relative;
+    z-index: -1;
 }
 
 .card-section-4 {

@@ -1,0 +1,133 @@
+
+.section-5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-section-5 {
+    display: flex;
+    background-color: #ebebf1;
+    width: 50vw;
+    height: 70vh;
+}
+
+.images-left {
+    width: 216px;
+    height: 100vh;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.whole-foods {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 216px;
+    height: 126px;
+    border-radius: 0px 0px 36px 36px;
+}
+
+.whole-foods img {
+    width: 120px;
+    height: 100px;
+}
+
+.spotify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 216px;
+    height: 216px;
+    border-radius: 36px;
+    margin-top: 80px;
+}
+
+.spotify img {
+    width: 129px;
+    height: 129px;
+}
+
+.amazon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 216px;
+    height: 216px;
+    border-radius: 36px;
+    margin-top: 80px;
+}
+
+.amazon img {
+    width: 129px;
+    height: 129px;
+}
+
+.blank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 216px;
+    height: 216px;
+    border-radius: 36px;
+    margin-top: 80px;
+}
+
+.images-right {
+    width: 216px;
+    height: 100vh;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.netflix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 216px;
+    height: 216px;
+    border-radius: 36px;
+}
+
+.netflix img {
+    width: 67px;
+    height: 128px;
+}
+
+.uber-eats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 216px;
+    height: 216px;
+    border-radius: 36px;
+    margin-top: 80px;
+}
+
+.uber-eats img {
+    width: 129px;
+    height: 129px;
+}
+
+.uber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 216px;
+    height: 216px;
+    border-radius: 36px;
+    margin-top: 80px;
+}
+
+.uber img {
+    width: 129px;
+    height: 129px;
+}
+
+
+
