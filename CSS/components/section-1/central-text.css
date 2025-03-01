@@ -5,8 +5,11 @@
     align-items: center;
     height: auto;
     width: auto;
+}
+
+.central-text h1 {
     font-size: 90px;
-    margin-top: 50px;
+    margin-top: 40px;
     font-weight: normal;
     text-align: center;
     align-content: center;

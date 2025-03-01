@@ -1,0 +1,36 @@
+.white-card-section {
+    background-color: white;
+    height: 10%;
+    width: auto;
+}
+
+.card-section-4 {
+    display: flex;
+    justify-content: end;
+    margin-left: 100px;
+    align-items: center;
+    height: auto;
+}
+
+.card-section-4 img {
+    display: flex;
+    justify-content: start;
+    height: auto;
+    margin-right: 90px;
+    margin-top: 100px;
+}
+
+.paragraph {
+    color: black;
+    display: flex;
+    justify-content: end;
+    margin-right: 150px;
+    font-size: 40px;
+    text-align: start;
+    margin-bottom: 150px;
+}
+
+.paragraph span {
+    color: #1FC6BB;
+}
+
