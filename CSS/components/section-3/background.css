@@ -2,6 +2,7 @@
     background-color: black;
     height: 50%;
     width: auto;
+    overflow: hidden;
 }
 
 .card-section-3 {

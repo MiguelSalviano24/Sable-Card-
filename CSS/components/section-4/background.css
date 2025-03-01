@@ -1,15 +1,17 @@
 .white-card-section {
     background-color: white;
-    height: 10%;
-    width: auto;
+    width: 100vw;
+    height: 50%;
+    overflow: hidden;
 }
 
 .card-section-4 {
     display: flex;
     justify-content: end;
-    margin-left: 100px;
     align-items: center;
-    height: auto;
+    height: 50%;
+    width: 100%;
+    position: relative;
 }
 
 .card-section-4 img {

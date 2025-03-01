@@ -1,22 +1,24 @@
-.section-one { 
+.card-section { 
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
 }
 
 .bg-card-section {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width:100vw;
+    height: 100vh;
     z-index: -1;
+
 }
 
 @media (min-width:2000px) {
     .bg-card-section {
         position: absolute;
-        height: 100vh;
+        height: 100%;
         z-index: -1;
         width: auto;
-        left: 800px
+        left: 800px;
+        overflow: hidden;
     }
 }
