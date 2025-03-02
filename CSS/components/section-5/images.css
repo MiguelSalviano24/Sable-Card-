@@ -13,23 +13,47 @@
 
 .images-left {
     width: 216px;
-    height: 100vh;
+    height: 2000px;
     margin-left: 150px;
     margin-bottom: 30px;
+}
+
+  .images-left {
+    display: flex;
+    flex-direction: column;
+    animation: animation 60s linear infinite;
+    width: calc(170px * 12 + 20px * 11);
+  }
+
+  @keyframes animation {
+    from { transform: translateY(100); }
+    to { transform: translateY(-100%); }
+  }
+
+@media (min-width: 2000px) {
+    .images-left {
+        width: 1000px;
+        height: 2000px;
+        margin-left: 300px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
 }
 
 .whole-foods {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: white;
     width: 216px;
-    height: 126px;
-    border-radius: 0px 0px 36px 36px;
+    height: 216px;
+    border-radius: 36px;
+    margin-top: 80px;
 }
 
 .whole-foods img {
     width: 120px;
-    height: 100px;
+    height: 120px;
 }
 
 .spotify {
@@ -64,22 +88,26 @@
     height: 129px;
 }
 
-.blank {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    width: 216px;
-    height: 216px;
-    border-radius: 36px;
-    margin-top: 80px;
-}
+  .images-right {
+    display: flex; 
+    height: 2000px;
+    white-space: nowrap;
+    overflow: hidden;
+    gap: 10px;
+    flex-direction: column;
+    width: calc(170px * 12 + 20px * 11);
+    animation: animation 60s linear infinite;
+    padding-top: 100px;
 
-.images-right {
-    width: 216px;
-    height: 100vh;
-    margin-left: 100px;
-    margin-bottom: 30px;
+  }
+
+  @media (min-width: 2000px) {
+    .images-right {
+        width: 1000px;
+        height: 2000px;
+        margin-right: 800px;
+        margin-bottom: 30px;
+    }
 }
 
 .netflix {
@@ -90,11 +118,13 @@
     width: 216px;
     height: 216px;
     border-radius: 36px;
+    margin-top: 80px;
 }
 
 .netflix img {
     width: 67px;
     height: 128px;
+    
 }
 
 .uber-eats {
@@ -126,8 +156,5 @@
 
 .uber img {
     width: 129px;
-    height: 129px;
+    height: 129px;  
 }
-
-
-
