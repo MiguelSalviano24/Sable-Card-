@@ -1,0 +1,20 @@
+.credit-and-debit {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    gap: 160px;
+    margin-top: 80px;
+    margin-left: 240px;
+}
+
+.credit img{
+    width: 266px;
+    height: 123px;
+}
+
+
+.credit-and-debit p {
+    font-size: 24px;
+    margin: 10px;
+    color: #10ACA2;
+}

@@ -1,0 +1,33 @@
+.buttons-section-6 {
+    display: flex;
+    gap: 230px;
+    margin-left: 570px;
+    padding: 50px 0 50px 0;
+}
+
+.credit-button {
+    display: flex;
+    justify-content: center;
+    width: 198px;
+    height: 47px;
+    background-color: #6FDBD4;
+    color: black;
+    border-radius: 135px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.debit-button {
+    display: flex;
+    justify-content: center;
+    width: 129px;
+    height: 47px;
+    background-color: #6FDBD4;
+    color: black;
+    border-radius: 135px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+}
