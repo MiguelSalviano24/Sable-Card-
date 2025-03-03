@@ -1,14 +1,9 @@
-.buttons-section-6 {
-    display: flex;
-    gap: 230px;
-    margin-left: 570px;
-    padding: 50px 0 50px 0;
-}
+
 
 .credit-button {
     display: flex;
     justify-content: center;
-    width: 198px;
+    width: 170px;
     height: 47px;
     background-color: #6FDBD4;
     color: black;
@@ -16,18 +11,29 @@
     text-transform: uppercase;
     text-align: center;
     align-items: center;
+    font-size: 10px;
+    padding: 20px;
     
 }
 
 .debit-button {
-    display: flex;
-    justify-content: center;
-    width: 129px;
-    height: 47px;
+    padding:20px;
     background-color: #6FDBD4;
     color: black;
     border-radius: 135px;
     text-transform: uppercase;
     text-align: center;
     align-items: center;
+    font-size: 10px;
+}
+
+@media(min-width:1024px) and (max-width:1440px){
+    .buttons-section-6 {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0 20px 0;
+        width: 100vw;
+        margin: 20px;
+    }
+
 }
