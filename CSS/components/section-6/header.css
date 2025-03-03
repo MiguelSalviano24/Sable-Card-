@@ -1,0 +1,15 @@
+.compare-section {
+    height: 100vh;
+    width: 100vw;
+}
+
+.compare {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 150px;
+}
+
+.compare h3 {
+    font-size: 84px;
+    letter-spacing: 5px;
+}
