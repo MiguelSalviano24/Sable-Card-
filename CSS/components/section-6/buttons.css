@@ -1,9 +1,7 @@
-
-
 .credit-button {
     display: flex;
     justify-content: center;
-    width: 170px;
+    width: 200px;
     height: 47px;
     background-color: #6FDBD4;
     color: black;
@@ -11,20 +9,25 @@
     text-transform: uppercase;
     text-align: center;
     align-items: center;
-    font-size: 10px;
+    font-size: 14px;
     padding: 20px;
+    margin-top: 50px;
     
 }
 
 .debit-button {
-    padding:20px;
+    display: flex;
     background-color: #6FDBD4;
     color: black;
     border-radius: 135px;
     text-transform: uppercase;
     text-align: center;
     align-items: center;
-    font-size: 10px;
+    font-size: 14px;
+    margin-top: 50px;
+    height: 47px;
+    width: fit-content;
+    padding: 20px;
 }
 
 @media(min-width:1024px) and (max-width:1440px){

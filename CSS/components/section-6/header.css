@@ -18,7 +18,7 @@
     letter-spacing: 5px;
 }
 
-@media(min-width:1024px) and (max-width:1440px) {
+@media(min-width: 1024px) and (max-width: 1440px) {
     .compare {
         display: flex;
         justify-content: center ;
@@ -27,7 +27,21 @@
 }
     
     .compare h3 {
-        font-size: 50px;
-        letter-spacing: 5px;
+        font-size: 65px;
+        letter-spacing: 0px;
+}
+}
+
+@media(min-width: 1441px) and (max-width: 2000px) {
+    .compare {
+        display: flex;
+        justify-content: center ;
+        width: 100%;
+
+}
+    
+    .compare h3 {
+        font-size: 70px;
+        letter-spacing: 7px;
 }
 }

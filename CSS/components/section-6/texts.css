@@ -62,6 +62,7 @@ td:nth-child(3) {
         font-size: 14px;
 
     }
+
     
     td:nth-child(1) {
         text-align: left;
@@ -75,6 +76,53 @@ td:nth-child(3) {
     
     td:nth-child(3) {
         text-align: start;
+
+    }
+    
+    .zero-dolars {
+        font-size: 40px;
+        color: white;
+    }
+}
+
+@media(min-width:1441px) and (max-width:2000px) {
+    .tabela {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        margin-top: 30px;
+        margin: 0;
+    }
+
+    table {
+        width: 90%;
+        margin-top: 50px;
+        border-collapse: collapse;
+        margin-left: 0;
+    }
+    
+    th, td {
+        border-top: 1px solid rgba(128, 128, 128, 0.331);
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+
+    }
+    
+    td:nth-child(1) {
+        text-align: left;
+    
+    }
+    
+    td:nth-child(2) {
+        text-align: start;
+        padding-left: 40px;
+        
+    }
+    
+    td:nth-child(3) {
+        text-align: start;
+        padding-right: 400px;
 
     }
     
