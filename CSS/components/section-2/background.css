@@ -7,50 +7,41 @@
 }
 
 .fundo {
-    position:absolute;
-    right: 200px;
-    scale: 95%;
-    top: 1340px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    scale: 63%;
+    top: 700px;
     z-index: 1;
+    right: 320px;
+    width: 50vw;
+    height: 140vh;
 }
 
 .fundo:hover {
-    position:absolute;
-    scale: 102%;
-    top: 1330px;
+    scale: 70%;
+    top: 720px;
     z-index: 1;
 }
 
-@media (min-width:1024px) {
+@media (min-width:1440px) {
     .fundo {
-        position:absolute;
-        right: 70px;
-        scale: 95%;
-        top: 1340px;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        scale: 65%;
+        top: 720px;
         z-index: 1;
+        right: 380px;
+        width: 50vw;
+        height: 140vh;
     }
-
+    
     .fundo:hover {
-        position:absolute;
-        scale: 102%;
-        top: 1330px;
-        z-index: 1;
-    }
-}
-
-@media (min-width:1200px) {
-    .fundo {
-        position:absolute;
-        right: 50px;
-        scale: 95%;
-        top: 1340px;
-        z-index: 1;
-    }
-
-    .fundo:hover {
-        position:absolute;
-        scale: 102%;
-        top: 1330px;
+        scale: 70%;
+        top: 720px;
         z-index: 1;
     }
 }

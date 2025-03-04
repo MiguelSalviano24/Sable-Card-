@@ -9,8 +9,8 @@
     justify-content: start;
     flex-direction: column;
     align-items: start;
-    margin-left: 150px;
-    margin-top: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
     line-height: 1.5rem;
 }
 
@@ -20,9 +20,9 @@
     align-items: start;
     flex-direction: column;
     align-items: end;
-    margin-right: 150px;
+    margin-right: 50px;
     text-align: end;
-    margin-top: 90px;
+    margin-top: 40px;
 }
 
 .text-left p, .text-right p {
@@ -42,8 +42,8 @@
     justify-content: start;
     flex-direction: column;
     align-items: start;
-    margin-left: 150px;
-    margin-top: 200px;
+    margin-left: 50px;
+    margin-top: 100px;
     line-height: 1.5rem;
 }
 
@@ -53,9 +53,9 @@
     align-items: start;
     flex-direction: column;
     align-items: end;
-    margin-right: 150px;
+    margin-right: 50px;
     text-align: end;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .text-left-down h3, .text-right-down h3 {
@@ -69,7 +69,7 @@
     margin-top: 10px;
 }
 
-@media (min-width:2000px) {
+/*@media (min-width:2000px) {
     
     .text-left {
         width:fit-content;
