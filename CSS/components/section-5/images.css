@@ -148,76 +148,85 @@
         height: 100px;  
     }
 
-@media (min-width: 1440px) and (max-width: 2000px) {
+@media (min-width: 1024px) and (max-width: 1440px) {
+
+    .images-section-5 {
+        display: flex;
+        background-color: #ebebf1;
+        width: 50vw;
+        height: 80vh;
+    }
 
     .images-left {
-        margin-left: 120px;
+        margin-left: 100px;
         margin-bottom: 30px;
+        
+
     }
 
     .images-right {
-        margin-right: 100px;
+        margin-right: 30px;
     }
 
 
     .whole-foods {
-        width: 216px;
-        height: 216px;
+        width: 180px;
+        height: 180px;
     }
     
     .whole-foods img {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
     
     .spotify {
-        width: 216px;
-        height: 216px;
+        width: 180px;
+        height: 180px;
     }
     
     .spotify img {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
     
     .amazon {
-        width: 216px;
-        height: 216px;
+        width: 180px;
+        height: 180px;
     }
     
     .amazon img {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
     
     .netflix {
-        width: 216px;
-        height: 216px;
+        width: 180px;
+        height: 180px;
     }
     
     .netflix img {
-        width: 100px;
-        height: 120px;
+        width: 80px;
+        height: 100px;
         
     }
     
     .uber-eats {
-        width: 216px;
-        height: 216px;
+        width: 180px;
+        height: 180px;
     }
     
     .uber-eats img {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
     
     .uber {
-        width: 216px;
-        height: 216px;
+        width: 180px;
+        height: 180px;
     }
     
     .uber img {
-        width: 120px;
-        height: 120px;  
+        width: 100px;
+        height: 100px;  
     }
 }
