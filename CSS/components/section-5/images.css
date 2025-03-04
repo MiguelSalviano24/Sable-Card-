@@ -12,9 +12,11 @@
 }
 
 .images-left {
+    display: flex;
+    justify-content: start;
     width: 216px;
     height: 2000px;
-    margin-left: 150px;
+    margin-left: 40px;
     margin-bottom: 30px;
 }
 
@@ -30,30 +32,20 @@
     to { transform: translateY(-100%); }
   }
 
-@media (min-width: 2000px) {
-    .images-left {
-        width: 1000px;
-        height: 2000px;
-        margin-left: 300px;
-        margin-right: 10px;
-        margin-bottom: 30px;
-    }
-}
-
 .whole-foods {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 216px;
-    height: 216px;
+    width: 180px;
+    height: 180px;
     border-radius: 36px;
     margin-top: 80px;
 }
 
 .whole-foods img {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 
 .spotify {
@@ -61,15 +53,15 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 216px;
-    height: 216px;
+    width: 180px;
+    height: 180px;
     border-radius: 36px;
     margin-top: 80px;
 }
 
 .spotify img {
-    width: 129px;
-    height: 129px;
+    width: 100px;
+    height: 100px;
 }
 
 .amazon {
@@ -77,15 +69,15 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 216px;
-    height: 216px;
+    width: 180px;
+    height: 180px;
     border-radius: 36px;
     margin-top: 80px;
 }
 
 .amazon img {
-    width: 129px;
-    height: 129px;
+    width: 100px;
+    height: 100px;
 }
 
   .images-right {
@@ -101,29 +93,26 @@
 
   }
 
-  @media (min-width: 2000px) {
     .images-right {
-        width: 1000px;
         height: 2000px;
-        margin-right: 800px;
         margin-bottom: 30px;
     }
-}
+
 
 .netflix {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 216px;
-    height: 216px;
+    width: 180px;
+    height: 180px;
     border-radius: 36px;
     margin-top: 80px;
 }
 
 .netflix img {
     width: 67px;
-    height: 128px;
+    height: 100px;
     
 }
 
@@ -132,15 +121,15 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 216px;
-    height: 216px;
+    width: 180px;
+    height: 180px;
     border-radius: 36px;
     margin-top: 80px;
 }
 
 .uber-eats img {
-    width: 129px;
-    height: 129px;
+    width: 100px;
+    height: 100px;
 }
 
 .uber {
@@ -148,13 +137,87 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 216px;
-    height: 216px;
+    width: 180px;
+    height: 180px;
     border-radius: 36px;
     margin-top: 80px;
 }
 
 .uber img {
-    width: 129px;
-    height: 129px;  
+    width: 100px;
+    height: 100px;  
+}
+
+@media (min-width: 1440px) and (max-width: 2000px) {
+
+    .images-left {
+        margin-left: 120px;
+        margin-bottom: 30px;
+    }
+
+    .images-right {
+        margin-right: 100px;
+    }
+
+
+    .whole-foods {
+        width: 216px;
+        height: 216px;
+    }
+    
+    .whole-foods img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .spotify {
+        width: 216px;
+        height: 216px;
+    }
+    
+    .spotify img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .amazon {
+        width: 216px;
+        height: 216px;
+    }
+    
+    .amazon img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .netflix {
+        width: 216px;
+        height: 216px;
+    }
+    
+    .netflix img {
+        width: 100px;
+        height: 120px;
+        
+    }
+    
+    .uber-eats {
+        width: 216px;
+        height: 216px;
+    }
+    
+    .uber-eats img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .uber {
+        width: 216px;
+        height: 216px;
+    }
+    
+    .uber img {
+        width: 120px;
+        height: 120px;  
+    }
 }
