@@ -99,54 +99,54 @@
     }
 
 
-.netflix {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    width: 180px;
-    height: 180px;
-    border-radius: 36px;
-    margin-top: 80px;
-}
+    .netflix {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 180px;
+        height: 180px;
+        border-radius: 36px;
+        margin-top: 80px;
+    }
 
-.netflix img {
-    width: 67px;
-    height: 100px;
-    
-}
+    .netflix img {
+        width: 67px;
+        height: 100px;
+        
+    }
 
-.uber-eats {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    width: 180px;
-    height: 180px;
-    border-radius: 36px;
-    margin-top: 80px;
-}
+    .uber-eats {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 180px;
+        height: 180px;
+        border-radius: 36px;
+        margin-top: 80px;
+    }
 
-.uber-eats img {
-    width: 100px;
-    height: 100px;
-}
+    .uber-eats img {
+        width: 100px;
+        height: 100px;
+    }
 
-.uber {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    width: 180px;
-    height: 180px;
-    border-radius: 36px;
-    margin-top: 80px;
-}
+    .uber {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 180px;
+        height: 180px;
+        border-radius: 36px;
+        margin-top: 80px;
+    }
 
-.uber img {
-    width: 100px;
-    height: 100px;  
-}
+    .uber img {
+        width: 100px;
+        height: 100px;  
+    }
 
 @media (min-width: 1440px) and (max-width: 2000px) {
 

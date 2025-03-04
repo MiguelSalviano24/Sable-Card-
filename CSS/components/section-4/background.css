@@ -17,41 +17,77 @@
 }
 
 .card-section-4 img {
-    display: flex;
-    justify-content: start;
-    height: auto;
-    margin-right: 90px;
     margin-top: 100px;
+    width: 50%;
+    height: auto;
 }
 
 .paragraph {
     color: black;
-    display: flex;
-    justify-content: end;
-    margin-right: 250px;
-    font-size: 40px;
+    margin-right: 80px;
+    font-size: 30px;
     text-align: start;
     margin-bottom: 150px;
+    text-wrap: nowrap;
 }
 
 .paragraph span {
     color: #1FC6BB;
 }
 
-@media (min-width:2000px) {
-    .card-section-4 img {
+@media (min-width: 1024px) and (max-width: 1440px) {
+
+    .card-section-4 {
         display: flex;
-        justify-content: start;
-        margin-top: 124px;
-        margin-right: 120px;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 100%;
+        position: relative;
+    }
+    .card-section-4 img {
+        margin-top: 100px;
+        width: 500px;
+        height: auto;
+        margin-left: 100px;
+    }
+    
+    .paragraph {
+        display: flex;
+        justify-content: end;
+        color: black;
+        font-size: 40px;
+        text-align: start;
+        margin-bottom: 150px;
+        text-wrap: nowrap;
     }
 }
 
-@media (min-width:2000px) {
+@media (min-width: 1441px) and (max-width: 2000px) {
+    .card-section-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 100%;
+        position: relative;
+        gap: 200px;
+    }
+    .card-section-4 img {
+        margin-top: 100px;
+        width: 500px;
+        height: auto;
+        margin-left: 100px;
+    }
+    
     .paragraph {
-        margin-top: 124px;
-        margin-right: 1200px;
+        display: flex;
+        justify-content: end;
+        color: black;
+        font-size: 40px;
         text-align: start;
+        margin-bottom: 150px;
+        text-wrap: nowrap;
     }
 }
 
