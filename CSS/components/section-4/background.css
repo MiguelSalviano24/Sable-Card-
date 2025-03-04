@@ -35,7 +35,7 @@
     color: #1FC6BB;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) {
 
     .white-card-section {
         width: 100vw;
@@ -66,6 +66,26 @@
         margin-top: 350px;
         margin-left: 100px;
     }
+}
+
+@media(min-width: 1440px) {
+    .paragraph {
+        display: flex;
+        justify-content: end;
+        color: black;
+        font-size: 30px;
+        text-wrap: nowrap;
+        margin-top: 350px;
+        margin-left: 100px;
+    }
+
+    .card-section-4 img {
+        margin-top: 200px;
+        width: 350px;
+        height: auto;
+        margin-left: 200px;
+    }
+
 }
 
 @media (min-width: 1441px) and (max-width: 2000px) {

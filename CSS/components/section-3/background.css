@@ -1,6 +1,6 @@
 .black-card-section {
     background-color: black;
-    height: 50%;
+    height: 50vh;
     width: auto;
     overflow: hidden;
 }
@@ -8,11 +8,17 @@
 .card-section-3 {
     display: flex;
     justify-content: end;
-    margin-top: 124px;
+    margin-top: 65px;
 
 }
 
-@media (min-width:2000px) {
+.card-section-3  img {
+    width: 350px;
+    height: auto;
+
+}
+
+/*@media (min-width:2000px) {
     .card-section-3 {
         display: flex;
         justify-content: end;

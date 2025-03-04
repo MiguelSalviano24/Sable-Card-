@@ -72,30 +72,3 @@
         color: #10ACA2;
     }
 }
-
-@media (min-aspect-ratio: 2/1) {
-    .credit-and-debit {
-        display: flex;
-        justify-content: center;
-        width: 100vw;
-        gap: 60px;
-        margin-top: 80px;
-
-    }
-    
-    .credit img {
-        width: 320px;
-        height: 170px;
-    }
-    
-    .debit img {
-        width: 270px;
-        height: 170px;
-    }
-
-    .credit-and-debit p {
-        font-size: 24px;
-        margin: 10px;
-        color: #10ACA2;
-    }
-  }
