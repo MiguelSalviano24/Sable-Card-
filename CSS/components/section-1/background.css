@@ -1,18 +1,21 @@
 .card-section { 
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
 }
 
 .bg-card-section {
     position: absolute;
-    width:100vw;
+    width:90vw;
+    scale: 115%;
+    top: 10px;
+    left: 80px;
     height: 100vh;
     z-index: -1;
 
 }
 
-@media (min-width:2000px) {
+/*@media (min-width:2000px) {
     .bg-card-section {
         position: absolute;
         height: 100%;

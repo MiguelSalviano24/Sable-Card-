@@ -1,12 +1,14 @@
 footer {
     display: flex;
     justify-content: start;
-    margin-top:300px;
-    margin-left: 70px;
-    color: rgba(255, 255, 255, 0.5)
+    margin-top:100px;
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 9px;
+    padding-bottom: 25px;
 }
 
 .fdic {
     margin-right: 15px;
-    width: 50px;
+    width: 40px;
 }

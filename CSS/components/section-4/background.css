@@ -69,6 +69,16 @@
 }
 
 @media(min-width: 1440px) {
+    .white-card-section {
+        background-color: white;
+        width: 100vw;
+        height: 50%;
+        overflow: hidden;
+        position: relative;
+        z-index: -1;
+        overflow: hidden;
+    }
+   
     .paragraph {
         display: flex;
         justify-content: end;

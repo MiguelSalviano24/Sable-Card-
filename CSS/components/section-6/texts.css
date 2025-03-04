@@ -51,6 +51,7 @@ td:nth-child(3) {
         margin-top: 10px;
         border-collapse: collapse;
         margin-left: 0;
+        overflow: hidden;
     }
     
     th, td {

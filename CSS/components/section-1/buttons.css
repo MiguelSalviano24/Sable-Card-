@@ -9,10 +9,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 150px;
+    height: 80px;
     background-color: #6FDBD4;
     flex-direction: column;
-    height: 100px;
     border-radius: 154.48px;
     font-size: medium;
     text-transform: uppercase;
@@ -30,8 +30,8 @@
     width: 100vw;
     background-color: white;
     flex-direction: column;
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 80px;
     border-radius: 154.48px;
     font-size: medium;
     text-transform: uppercase;
@@ -52,8 +52,8 @@
 
 .login-button button {
     background-color: white;
-    width: 230px;
-    height: 60px;
+    width: 140px;
+    height: 50px;
     border-radius: 154.48px;
     font-size: medium;
     text-transform: uppercase;
@@ -61,13 +61,13 @@
     border-style: none;
     text-transform: bold;
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .login-button button:hover {
     background-color: #6FDBD4;
-    width: 230px;
-    height: 60px;
+    width: 140px;
+    height: 50px;
     border-radius: 154.48px;
     font-size: medium;
     text-transform: uppercase;

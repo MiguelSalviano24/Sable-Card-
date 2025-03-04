@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     scale: 63%;
-    top: 700px;
+    top: 680px;
     z-index: 1;
     right: 320px;
     width: 50vw;
@@ -21,7 +21,7 @@
 
 .fundo:hover {
     scale: 70%;
-    top: 720px;
+    top: 680px;
     z-index: 1;
 }
 
@@ -32,7 +32,7 @@
         justify-content: center;
         align-items: center;
         scale: 65%;
-        top: 720px;
+        top: 670px;
         z-index: 1;
         right: 380px;
         width: 50vw;
@@ -41,7 +41,7 @@
     
     .fundo:hover {
         scale: 70%;
-        top: 720px;
+        top: 670px;
         z-index: 1;
     }
 }
