@@ -93,7 +93,7 @@
         background-color: #1c1c1e;
         display: flex;
         justify-content: center;
-        gap: 50px;
+        gap: 20px;
         flex-direction: column;
         width: 50vw;
         height: 70vh;
@@ -108,17 +108,16 @@
     }
     
     .top-text h3 {
-        font-size: 40px;
+        font-size: 35px;
         font-weight: normal;
         line-height: 40px;   
     }
     
     .top-text p {
-        font-size: 15px;
+        font-size: 14px;
         margin-right: 10px;
         text-wrap: wrap;
         width: fit-content;
-        padding-top: 10px;
     }
     
     .mid-text {
@@ -134,7 +133,7 @@
     }
     
     .mid-text h3 {
-        font-size: 40px;
+        font-size: 30px;
         font-weight: normal;
         line-height: 40px;   
         color: rgba(255, 255, 255, 0.221);
@@ -142,12 +141,11 @@
     }
     
     .mid-text p {
-        font-size: 15px;
+        font-size: 14px;
         color: rgba(255, 255, 255, 0.221);
         margin-right: 10px;
         text-wrap: wrap;
         width: fit-content;
-        padding-top: 10px;
     }
     
     .bottom-text {
@@ -169,11 +167,10 @@
         line-height: 40px;   
         color: rgba(255, 255, 255, 0.221);
         text-wrap: wrap;
-        padding-top: 10px;
     }
     
     .bottom-text p {
-        font-size: 15px;
+        font-size: 14px;
         color: rgba(255, 255, 255, 0.221);
         margin-right: 10px;
         text-wrap: wrap;
@@ -181,20 +178,19 @@
 }
 }
 
-@media (min-width: 1441px) and (max-width: 2000px) {
+@media (min-width: 1920px) {
     .texts-section-5 {
         display: flex;
         justify-content: center;
         align-content: center;
-        gap: 80px;       
+        gap: 70px;       
     }
     
     .top-text {
         margin-left: 50px;
-        margin-top: 20px;
-        padding-top: 20px;
         width: 85%;
         margin-left: 60px;
+        margin-bottom: 10px;
     }
     
     .top-text h3 {
@@ -221,6 +217,7 @@
         border-top: 1px solid rgba(128, 128, 128, 0.456);
         text-align: start;
         padding-top: 20px;
+        margin-bottom: 10px;
     }
     
     .mid-text h3 {
