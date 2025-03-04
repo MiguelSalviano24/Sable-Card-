@@ -88,12 +88,12 @@
     color: rgba(255, 255, 255, 0.221)
 }
 
-@media(min-width: 1024px) and (max-width: 1440px) {
+@media(min-width: 1024px) {
     .texts-section-5 {
         background-color: #1c1c1e;
         display: flex;
         justify-content: center;
-        gap: 50px;
+        gap: 20px;
         flex-direction: column;
         width: 50vw;
         height: 80vh;
@@ -178,29 +178,28 @@
 }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1440px) {
     .texts-section-5 {
         display: flex;
         justify-content: center;
         align-content: center;
-        gap: 70px;       
+        gap: 20px;       
     }
     
     .top-text {
         margin-left: 50px;
         width: 85%;
-        margin-left: 60px;
         margin-bottom: 10px;
     }
     
     .top-text h3 {
-        font-size: 40px;
+        font-size: 35px;
         font-weight: normal;
         line-height: 40px;   
     }
     
     .top-text p {
-        font-size: 20px;
+        font-size: 18px;
         margin-right: 10px;
         text-wrap: wrap;
         width: fit-content;
@@ -221,7 +220,7 @@
     }
     
     .mid-text h3 {
-        font-size: 40px;
+        font-size: 35px;
         font-weight: normal;
         line-height: 40px;   
         color: rgba(255, 255, 255, 0.221);
@@ -229,7 +228,7 @@
     }
     
     .mid-text p {
-        font-size: 20px;
+        font-size: 18px;
         color: rgba(255, 255, 255, 0.221);
         margin-right: 10px;
         text-wrap: wrap;
@@ -260,7 +259,7 @@
     }
     
     .bottom-text p {
-        font-size: 20px;
+        font-size: 18px;
         color: rgba(255, 255, 255, 0.221);
         margin-right: 10px;
         text-wrap: wrap;

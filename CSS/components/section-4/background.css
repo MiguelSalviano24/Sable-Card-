@@ -37,17 +37,21 @@
 
 @media (min-width: 1024px) and (max-width: 1440px) {
 
+    .white-card-section {
+        width: 100vw;
+        height: 50vh;
+    }
+
     .card-section-4 {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 50%;
         width: 100%;
-        position: relative;
     }
     .card-section-4 img {
-        margin-top: 100px;
-        width: 500px;
+        margin-top: 200px;
+        width: 350px;
         height: auto;
         margin-left: 100px;
     }
@@ -56,10 +60,11 @@
         display: flex;
         justify-content: end;
         color: black;
-        font-size: 40px;
+        font-size: 30px;
         text-align: start;
-        margin-bottom: 150px;
         text-wrap: nowrap;
+        margin-top: 350px;
+        margin-left: 100px;
     }
 }
 
