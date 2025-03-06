@@ -82,7 +82,7 @@
         flex-direction: column;
         align-items: start;
         margin-left: 200px;
-        margin-top: 100px;
+        margin-top: 50px;
         line-height: 1.5rem;
     }
     
@@ -94,7 +94,7 @@
         align-items: end;
         margin-right: 200px;
         text-align: end;
-        margin-top: 100px;
+        margin-top: 50px;
     }
     
     .text-left p, .text-right p {
@@ -115,7 +115,7 @@
         flex-direction: column;
         align-items: start;
         margin-left: 200px;
-        margin-top: 150px;
+        margin-top: 100px;
         line-height: 1.5rem;
     }
     
@@ -127,7 +127,7 @@
         align-items: end;
         margin-right: 200px;
         text-align: end;
-        margin-top: 150px;
+        margin-top: 100px;
     }
     
     .text-left-down h3, .text-right-down h3 {

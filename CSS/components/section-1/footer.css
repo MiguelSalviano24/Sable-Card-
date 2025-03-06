@@ -17,7 +17,7 @@ footer {
     footer {
         display: flex;
         justify-content: start;
-        margin-top:240px;
+        margin-top:150px;
         margin-left: 20px;
         color: rgba(255, 255, 255, 0.5);
         font-size: 9px;

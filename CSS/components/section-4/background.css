@@ -110,7 +110,7 @@
     }
     .card-section-4 img {
         margin-top: 100px;
-        width: 450px;
+        width: 400px;
         height: auto;
         margin-left: 100px;
     }
@@ -121,7 +121,7 @@
         color: black;
         font-size: 40px;
         text-align: start;
-        margin-bottom: 250px;
+        margin-bottom: 180px;
         text-wrap: nowrap;
     }
 }

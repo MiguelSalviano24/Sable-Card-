@@ -20,7 +20,6 @@
         width: 100%;
         height: 100vh;
         overflow: hidden;
-        padding-bottom: 310px;
     }
     
     .bg-card-section {
@@ -29,6 +28,7 @@
         z-index: -1;
         width: 100%;
         overflow: hidden;
-        scale: 102%;
+        scale: 100%;
+        top: -100px;
     }
 }

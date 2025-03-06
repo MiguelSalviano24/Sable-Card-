@@ -58,15 +58,15 @@
     .fundo {
         position:absolute;
         right: 500px;
-        scale: 90%;
-        top: 920px;
+        scale: 75%;
+        top: 800px;
         z-index: 1;
     }
 
     .fundo:hover {
         position:absolute;
-        scale: 95%;
-        top: 920px;
+        scale: 80%;
+        top: 800px;
         z-index: 1;
     }
 }

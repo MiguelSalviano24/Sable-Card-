@@ -29,12 +29,13 @@
     .card-section-3 {
         display: flex;
         justify-content: end;
-        margin-top: 124px;
+        margin-top: 84px;
     }
 
     .card-section-3  img {
-        width: 430px;
+        width: 388px;
         height: auto;
+        margin-right: 10px;
     
     }
 }
