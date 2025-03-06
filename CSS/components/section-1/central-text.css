@@ -14,3 +14,22 @@
     text-align: center;
     align-content: center;
 }
+
+@media (min-width:1920px) {
+    .central-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+    
+    .central-text h1 {
+        font-size: 95px;
+        margin-top: 10px;
+        font-weight: normal;
+        text-align: center;
+        align-content: center;
+    }
+}    

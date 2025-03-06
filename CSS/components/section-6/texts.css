@@ -84,7 +84,7 @@ td:nth-child(3) {
     }
 }
 
-@media(min-width:1441px) and (max-width:2000px) {
+@media(min-width:1920px) {
     .tabela {
         display: flex;
         justify-content: center;
@@ -103,7 +103,7 @@ td:nth-child(3) {
     th, td {
         border-top: 1px solid rgba(128, 128, 128, 0.331);
         text-align: center;
-        padding: 5px;
+        padding: 13px;
         font-size: 14px;
 
     }

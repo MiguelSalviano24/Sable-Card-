@@ -35,7 +35,7 @@
         top: 670px;
         z-index: 1;
         right: 380px;
-        width: 50vw;
+        width: 50%;
         height: 140vh;
     }
     
@@ -46,19 +46,27 @@
     }
 }
 
-@media (min-width:2000px) {
+@media (min-width:1920px) {
+    .phone-section {
+        background-color: #1c1c1e;
+        height: 100vh;
+        width:100%;
+        overflow: hidden;
+    
+    }
+   
     .fundo {
         position:absolute;
-        right: 1000px;
-        scale: 95%;
-        top: 1340px;
+        right: 500px;
+        scale: 90%;
+        top: 920px;
         z-index: 1;
     }
 
     .fundo:hover {
         position:absolute;
-        scale: 102%;
-        top: 1330px;
+        scale: 95%;
+        top: 920px;
         z-index: 1;
     }
 }

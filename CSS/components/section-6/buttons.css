@@ -40,3 +40,22 @@
     }
 
 }
+
+@media (min-width: 1920px) {
+    .buttons-section-6 {
+        display: flex;
+        justify-content: center;
+        padding: 50px 0 50px 0;
+        width: 100vw;
+        margin: 50px;
+    }
+
+    .credit-button {
+        margin-top: 50px;
+        
+    }
+    
+    .debit-button {
+        margin-top: 50px;
+    }
+}

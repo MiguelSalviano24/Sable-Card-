@@ -12,3 +12,20 @@ footer {
     margin-right: 15px;
     width: 40px;
 }
+
+@media (min-width: 1920px) {
+    footer {
+        display: flex;
+        justify-content: start;
+        margin-top:240px;
+        margin-left: 20px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 9px;
+        padding-bottom: 25px;
+    }
+    
+    .fdic {
+        margin-right: 15px;
+        width: 40px;
+    }
+}

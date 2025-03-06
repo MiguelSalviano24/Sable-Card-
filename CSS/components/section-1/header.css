@@ -36,3 +36,36 @@ a {
 .item:hover {
     border-bottom: 2px solid rgba(255, 255, 255, 0.6);
 }
+
+@media (min-width:1920px) {
+    nav {
+        padding-top: 85px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 120px;
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: auto;
+        height: auto;
+        padding-left: 60px;
+        
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        list-style: none;
+        width: 100%;
+        text-transform: uppercase;
+        padding-right: 170px;
+        
+    }
+    
+}
