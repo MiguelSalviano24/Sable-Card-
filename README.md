@@ -1,6 +1,10 @@
 # Projeto landing page Sable Card HTML e CSS
+![Screenshot from 2025-03-13 07-40-28](https://github.com/user-attachments/assets/52ec3aff-bcf5-4a12-8761-6c0648c8d6aa)
+
 
 ## Sobre o Projeto
+
+
 Esse projeto foi feito para ser um estudo prático de HTML e CSS sem o uso de JavaScript ou Frameworks externos.
 
 ## Funcionalidades
